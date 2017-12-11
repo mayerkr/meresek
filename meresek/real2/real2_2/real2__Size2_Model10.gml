@@ -30,7 +30,7 @@ graph
 	Concentrator class DefinedPart
 	Entity class
 	Concentrator class
-	Degree: 2
+	Degree: 3
 	Repeater: false
 	#Hops: 0"
 				fontSize	14
@@ -71,8 +71,8 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 6
-	Repeater: true
+	Degree: 1
+	Repeater: false
 	#Hops: 1"
 				fontSize	14
 				fontName	"Consolas"
@@ -85,6 +85,47 @@ graph
 	node
 		[
 			id	2
+			graphics
+			[
+				w	215.60000000000002
+				h	120
+				type	"rectangle"
+				fill	"#FFFFFF"
+				fill2	"#FFFFFF"
+				outline	"#000000"
+			]
+			LabelGraphics
+			[
+				text	"null"
+				outline	"#000000"
+				fill	"#FFFFFF"
+				fontSize	16
+				fontName	"Monospace"
+				autoSizePolicy	"node_width"
+				anchor	"t"
+				borderDistance	0.0
+			]
+			LabelGraphics
+			[
+				text	"
+	Entity class
+	Meter class
+	SmartMeter class
+	Entity class UndefinedPart
+	Degree: 5
+	Repeater: true
+	#Hops: 1"
+				fontSize	14
+				fontName	"Consolas"
+				alignment	"left"
+				anchor	"tl"
+				borderDistance	6
+			]
+		]
+	
+	node
+		[
+			id	3
 			graphics
 			[
 				w	215.60000000000002
@@ -125,47 +166,6 @@ graph
 	
 	node
 		[
-			id	3
-			graphics
-			[
-				w	215.60000000000002
-				h	120
-				type	"rectangle"
-				fill	"#FFFFFF"
-				fill2	"#FFFFFF"
-				outline	"#000000"
-			]
-			LabelGraphics
-			[
-				text	"null"
-				outline	"#000000"
-				fill	"#FFFFFF"
-				fontSize	16
-				fontName	"Monospace"
-				autoSizePolicy	"node_width"
-				anchor	"t"
-				borderDistance	0.0
-			]
-			LabelGraphics
-			[
-				text	"
-	Entity class
-	Meter class
-	SmartMeter class
-	Entity class UndefinedPart
-	Degree: 3
-	Repeater: true
-	#Hops: 3"
-				fontSize	14
-				fontName	"Consolas"
-				alignment	"left"
-				anchor	"tl"
-				borderDistance	6
-			]
-		]
-	
-	node
-		[
 			id	4
 			graphics
 			[
@@ -194,7 +194,7 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 2
+	Degree: 7
 	Repeater: true
 	#Hops: 2"
 				fontSize	14
@@ -276,9 +276,9 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 3
+	Degree: 2
 	Repeater: true
-	#Hops: 4"
+	#Hops: 3"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -358,9 +358,9 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 2
+	Degree: 3
 	Repeater: true
-	#Hops: 5"
+	#Hops: 3"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -399,9 +399,9 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 3
+	Degree: 2
 	Repeater: true
-	#Hops: 6"
+	#Hops: 2"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -440,9 +440,9 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 2
-	Repeater: true
-	#Hops: 5"
+	Degree: 1
+	Repeater: false
+	#Hops: 3"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -483,7 +483,7 @@ graph
 	Entity class UndefinedPart
 	Degree: 1
 	Repeater: false
-	#Hops: 7"
+	#Hops: 4"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -524,7 +524,7 @@ graph
 	Entity class UndefinedPart
 	Degree: 1
 	Repeater: false
-	#Hops: 1"
+	#Hops: 2"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -565,7 +565,7 @@ graph
 	Entity class UndefinedPart
 	Degree: 1
 	Repeater: false
-	#Hops: 2"
+	#Hops: 3"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -604,9 +604,9 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 2
-	Repeater: true
-	#Hops: 7"
+	Degree: 1
+	Repeater: false
+	#Hops: 1"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -647,7 +647,7 @@ graph
 	Entity class UndefinedPart
 	Degree: 1
 	Repeater: false
-	#Hops: 2"
+	#Hops: 3"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -770,7 +770,7 @@ graph
 	Entity class UndefinedPart
 	Degree: 1
 	Repeater: false
-	#Hops: 6"
+	#Hops: 4"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -811,7 +811,7 @@ graph
 	Entity class UndefinedPart
 	Degree: 1
 	Repeater: false
-	#Hops: 2"
+	#Hops: 3"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -852,7 +852,7 @@ graph
 	Entity class UndefinedPart
 	Degree: 1
 	Repeater: false
-	#Hops: 8"
+	#Hops: 3"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -882,7 +882,7 @@ graph
 	edge
 	[
 		source	2
-		target	1
+		target	0
 		graphics
 		[
 			fill	"#000000"
@@ -920,7 +920,7 @@ graph
 	edge
 	[
 		source	4
-		target	1
+		target	2
 		graphics
 		[
 			fill	"#000000"
@@ -958,7 +958,7 @@ graph
 	edge
 	[
 		source	6
-		target	5
+		target	4
 		graphics
 		[
 			fill	"#000000"
@@ -977,7 +977,7 @@ graph
 	edge
 	[
 		source	7
-		target	3
+		target	6
 		graphics
 		[
 			fill	"#000000"
@@ -996,7 +996,7 @@ graph
 	edge
 	[
 		source	8
-		target	6
+		target	4
 		graphics
 		[
 			fill	"#000000"
@@ -1015,7 +1015,7 @@ graph
 	edge
 	[
 		source	9
-		target	8
+		target	2
 		graphics
 		[
 			fill	"#000000"
@@ -1034,7 +1034,7 @@ graph
 	edge
 	[
 		source	10
-		target	6
+		target	9
 		graphics
 		[
 			fill	"#000000"
@@ -1053,7 +1053,7 @@ graph
 	edge
 	[
 		source	11
-		target	9
+		target	8
 		graphics
 		[
 			fill	"#000000"
@@ -1072,7 +1072,7 @@ graph
 	edge
 	[
 		source	12
-		target	0
+		target	2
 		graphics
 		[
 			fill	"#000000"
@@ -1091,7 +1091,7 @@ graph
 	edge
 	[
 		source	13
-		target	1
+		target	3
 		graphics
 		[
 			fill	"#000000"
@@ -1110,7 +1110,7 @@ graph
 	edge
 	[
 		source	14
-		target	9
+		target	0
 		graphics
 		[
 			fill	"#000000"
@@ -1129,7 +1129,7 @@ graph
 	edge
 	[
 		source	15
-		target	1
+		target	4
 		graphics
 		[
 			fill	"#000000"
@@ -1148,7 +1148,7 @@ graph
 	edge
 	[
 		source	16
-		target	3
+		target	8
 		graphics
 		[
 			fill	"#000000"
@@ -1186,7 +1186,7 @@ graph
 	edge
 	[
 		source	18
-		target	10
+		target	5
 		graphics
 		[
 			fill	"#000000"
@@ -1205,7 +1205,7 @@ graph
 	edge
 	[
 		source	19
-		target	1
+		target	4
 		graphics
 		[
 			fill	"#000000"
@@ -1224,7 +1224,7 @@ graph
 	edge
 	[
 		source	20
-		target	14
+		target	4
 		graphics
 		[
 			fill	"#000000"
@@ -1262,7 +1262,7 @@ graph
 	]
 	edge
 	[
-		source	1
+		source	0
 		target	2
 		graphics
 		[
@@ -1302,7 +1302,7 @@ graph
 	]
 	edge
 	[
-		source	1
+		source	2
 		target	4
 		graphics
 		[
@@ -1342,7 +1342,7 @@ graph
 	]
 	edge
 	[
-		source	5
+		source	4
 		target	6
 		graphics
 		[
@@ -1362,7 +1362,7 @@ graph
 	]
 	edge
 	[
-		source	3
+		source	6
 		target	7
 		graphics
 		[
@@ -1382,7 +1382,7 @@ graph
 	]
 	edge
 	[
-		source	6
+		source	4
 		target	8
 		graphics
 		[
@@ -1402,7 +1402,7 @@ graph
 	]
 	edge
 	[
-		source	8
+		source	2
 		target	9
 		graphics
 		[
@@ -1422,7 +1422,7 @@ graph
 	]
 	edge
 	[
-		source	6
+		source	9
 		target	10
 		graphics
 		[
@@ -1442,7 +1442,7 @@ graph
 	]
 	edge
 	[
-		source	9
+		source	8
 		target	11
 		graphics
 		[
@@ -1462,7 +1462,7 @@ graph
 	]
 	edge
 	[
-		source	0
+		source	2
 		target	12
 		graphics
 		[
@@ -1482,7 +1482,7 @@ graph
 	]
 	edge
 	[
-		source	1
+		source	3
 		target	13
 		graphics
 		[
@@ -1502,7 +1502,7 @@ graph
 	]
 	edge
 	[
-		source	9
+		source	0
 		target	14
 		graphics
 		[
@@ -1522,7 +1522,7 @@ graph
 	]
 	edge
 	[
-		source	1
+		source	4
 		target	15
 		graphics
 		[
@@ -1542,7 +1542,7 @@ graph
 	]
 	edge
 	[
-		source	3
+		source	8
 		target	16
 		graphics
 		[
@@ -1582,7 +1582,7 @@ graph
 	]
 	edge
 	[
-		source	10
+		source	5
 		target	18
 		graphics
 		[
@@ -1602,7 +1602,7 @@ graph
 	]
 	edge
 	[
-		source	1
+		source	4
 		target	19
 		graphics
 		[
@@ -1622,7 +1622,7 @@ graph
 	]
 	edge
 	[
-		source	14
+		source	4
 		target	20
 		graphics
 		[

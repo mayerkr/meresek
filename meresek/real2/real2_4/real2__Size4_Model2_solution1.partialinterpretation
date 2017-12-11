@@ -2,87 +2,87 @@
 <partialinterpretation:PartialInterpretation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore2logicannotations="http://www.bme.hu/mit/inf/dslreasoner/logic/model/language/ecore2logicannotation" xmlns:language="http://www.bme.hu/mit/inf/dslreasoner/logic/model/language" xmlns:partialinterpretation="http://www.bme.hu/mit/inf/dslreasoner/viatrasolver/partialinterpretationlanguage" xmlns:viatra2logicannotations="http://www.bme.hu/mit/inf/dslreasoner/logic/model/language/viatra2logicannotation" problem="//@problemConainer" maxNewIntegers="-1" maxNewReals="-1" maxNewStrings="-1">
   <partialrelationinterpretation interpretationOf="//@problemConainer/@relations.0" param1="//@problemConainer/@relations.0/@parameters.0" param2="//@problemConainer/@relations.0/@parameters.1">
     <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.0" param2="//@problemConainer/@elements.0"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.1" param2="//@problemConainer/@elements.0"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.1" param2="//@newElements.0"/>
     <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.2" param2="//@newElements.1"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.3" param2="//@problemConainer/@elements.0"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.4" param2="//@newElements.0"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.5" param2="//@newElements.4"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.6" param2="//@newElements.4"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.7" param2="//@newElements.3"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.8" param2="//@newElements.7"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.9" param2="//@newElements.5"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.10" param2="//@newElements.7"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.11" param2="//@newElements.7"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.3" param2="//@newElements.2"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.4" param2="//@newElements.2"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.5" param2="//@problemConainer/@elements.0"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.6" param2="//@newElements.5"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.7" param2="//@newElements.2"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.8" param2="//@newElements.5"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.9" param2="//@newElements.6"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.10" param2="//@newElements.2"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.11" param2="//@newElements.6"/>
     <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.12" param2="//@newElements.11"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.13" param2="//@newElements.3"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.14" param2="//@newElements.6"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.15" param2="//@newElements.13"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.16" param2="//@newElements.0"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.17" param2="//@problemConainer/@elements.0"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.18" param2="//@newElements.0"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.19" param2="//@newElements.5"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.20" param2="//@newElements.13"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.21" param2="//@newElements.5"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.13" param2="//@newElements.0"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.14" param2="//@newElements.7"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.15" param2="//@newElements.10"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.16" param2="//@newElements.12"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.17" param2="//@newElements.14"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.18" param2="//@newElements.1"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.19" param2="//@newElements.15"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.20" param2="//@newElements.0"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.21" param2="//@newElements.17"/>
     <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.22" param2="//@newElements.18"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.23" param2="//@newElements.20"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.24" param2="//@newElements.0"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.25" param2="//@newElements.19"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.26" param2="//@newElements.8"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.27" param2="//@newElements.0"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.28" param2="//@newElements.24"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.29" param2="//@newElements.24"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.30" param2="//@newElements.27"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.31" param2="//@newElements.20"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.32" param2="//@problemConainer/@elements.0"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.33" param2="//@newElements.9"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.34" param2="//@newElements.17"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.35" param2="//@newElements.12"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.36" param2="//@newElements.17"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.37" param2="//@newElements.1"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.38" param2="//@newElements.5"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.39" param2="//@newElements.28"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.23" param2="//@newElements.6"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.24" param2="//@newElements.7"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.25" param2="//@newElements.14"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.26" param2="//@newElements.3"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.27" param2="//@newElements.18"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.28" param2="//@newElements.12"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.29" param2="//@newElements.7"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.30" param2="//@newElements.15"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.31" param2="//@newElements.6"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.32" param2="//@newElements.1"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.33" param2="//@newElements.25"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.34" param2="//@newElements.0"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.35" param2="//@newElements.13"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.36" param2="//@newElements.1"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.37" param2="//@newElements.21"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.38" param2="//@newElements.2"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.39" param2="//@newElements.17"/>
   </partialrelationinterpretation>
   <partialrelationinterpretation interpretationOf="//@problemConainer/@relations.1" param1="//@problemConainer/@relations.1/@parameters.0" param2="//@problemConainer/@relations.1/@parameters.1">
     <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@problemConainer/@elements.0" param2="//@newElements.0"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@problemConainer/@elements.0" param2="//@newElements.1"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.0" param2="//@newElements.1"/>
     <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.1" param2="//@newElements.2"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@problemConainer/@elements.0" param2="//@newElements.3"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.0" param2="//@newElements.4"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.4" param2="//@newElements.5"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.4" param2="//@newElements.6"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.3" param2="//@newElements.7"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.7" param2="//@newElements.8"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.5" param2="//@newElements.9"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.7" param2="//@newElements.10"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.7" param2="//@newElements.11"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.2" param2="//@newElements.3"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.2" param2="//@newElements.4"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@problemConainer/@elements.0" param2="//@newElements.5"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.5" param2="//@newElements.6"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.2" param2="//@newElements.7"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.5" param2="//@newElements.8"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.6" param2="//@newElements.9"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.2" param2="//@newElements.10"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.6" param2="//@newElements.11"/>
     <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.11" param2="//@newElements.12"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.3" param2="//@newElements.13"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.6" param2="//@newElements.14"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.13" param2="//@newElements.15"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.0" param2="//@newElements.16"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@problemConainer/@elements.0" param2="//@newElements.17"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.0" param2="//@newElements.18"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.5" param2="//@newElements.19"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.13" param2="//@newElements.20"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.5" param2="//@newElements.21"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.0" param2="//@newElements.13"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.7" param2="//@newElements.14"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.10" param2="//@newElements.15"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.12" param2="//@newElements.16"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.14" param2="//@newElements.17"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.1" param2="//@newElements.18"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.15" param2="//@newElements.19"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.0" param2="//@newElements.20"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.17" param2="//@newElements.21"/>
     <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.18" param2="//@newElements.22"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.20" param2="//@newElements.23"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.0" param2="//@newElements.24"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.19" param2="//@newElements.25"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.8" param2="//@newElements.26"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.0" param2="//@newElements.27"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.24" param2="//@newElements.28"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.24" param2="//@newElements.29"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.27" param2="//@newElements.30"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.20" param2="//@newElements.31"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@problemConainer/@elements.0" param2="//@newElements.32"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.9" param2="//@newElements.33"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.17" param2="//@newElements.34"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.12" param2="//@newElements.35"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.17" param2="//@newElements.36"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.1" param2="//@newElements.37"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.5" param2="//@newElements.38"/>
-    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.28" param2="//@newElements.39"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.6" param2="//@newElements.23"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.7" param2="//@newElements.24"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.14" param2="//@newElements.25"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.3" param2="//@newElements.26"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.18" param2="//@newElements.27"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.12" param2="//@newElements.28"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.7" param2="//@newElements.29"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.15" param2="//@newElements.30"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.6" param2="//@newElements.31"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.1" param2="//@newElements.32"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.25" param2="//@newElements.33"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.0" param2="//@newElements.34"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.13" param2="//@newElements.35"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.1" param2="//@newElements.36"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.21" param2="//@newElements.37"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.2" param2="//@newElements.38"/>
+    <relationlinks xsi:type="partialinterpretation:BinaryElementRelationLink" param1="//@newElements.17" param2="//@newElements.39"/>
   </partialrelationinterpretation>
   <newElements/>
   <newElements/>
@@ -197,20 +197,8 @@
           <range xsi:type="language:ComplexTypeReference" referred="//@problemConainer/@types.2"/>
         </quantifiedVariables>
         <expression xsi:type="language:Not">
-          <operand xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.3">
+          <operand xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.2">
             <parameterSubstitutions xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@assertions.2/@value/@quantifiedVariables.0"/>
-          </operand>
-        </expression>
-      </value>
-    </assertions>
-    <assertions name="errorpattern patterns entityIsItsOwnParent" annotations="//@problemConainer/@annotations.6">
-      <value xsi:type="language:Forall">
-        <quantifiedVariables name="entity">
-          <range xsi:type="language:ComplexTypeReference" referred="//@problemConainer/@types.0"/>
-        </quantifiedVariables>
-        <expression xsi:type="language:Not">
-          <operand xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.4">
-            <parameterSubstitutions xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@assertions.3/@value/@quantifiedVariables.0"/>
           </operand>
         </expression>
       </value>
@@ -223,26 +211,7 @@
       <parameters xsi:type="language:ComplexTypeReference" referred="//@problemConainer/@types.0"/>
       <parameters xsi:type="language:ComplexTypeReference" referred="//@problemConainer/@types.0"/>
     </relations>
-    <relations xsi:type="language:RelationDefinition" name="pattern patterns hasParent" annotations="//@problemConainer/@annotations.2">
-      <parameters xsi:type="language:ComplexTypeReference" referred="//@problemConainer/@types.0"/>
-      <variables name="parameter entity">
-        <range xsi:type="language:ComplexTypeReference" referred="//@problemConainer/@types.0"/>
-      </variables>
-      <value xsi:type="language:Or">
-        <operands xsi:type="language:Exists">
-          <quantifiedVariables name="variable parent">
-            <range xsi:type="language:ComplexTypeReference" referred="//@problemConainer/@types.0"/>
-          </quantifiedVariables>
-          <expression xsi:type="language:And">
-            <operands xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.0">
-              <parameterSubstitutions xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.2/@variables.0"/>
-              <parameterSubstitutions xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.2/@value/@operands.0/@quantifiedVariables.0"/>
-            </operands>
-          </expression>
-        </operands>
-      </value>
-    </relations>
-    <relations xsi:type="language:RelationDefinition" name="pattern patterns concentratorHasParent" annotations="//@problemConainer/@annotations.3">
+    <relations xsi:type="language:RelationDefinition" name="pattern patterns concentratorHasParent" annotations="//@problemConainer/@annotations.2">
       <parameters xsi:type="language:ComplexTypeReference" referred="//@problemConainer/@types.2"/>
       <variables name="parameter concentrator">
         <range xsi:type="language:ComplexTypeReference" referred="//@problemConainer/@types.2"/>
@@ -254,9 +223,28 @@
           </quantifiedVariables>
           <expression xsi:type="language:And">
             <operands xsi:type="language:InstanceOf">
-              <value xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.3/@variables.0"/>
+              <value xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.2/@variables.0"/>
               <range xsi:type="language:ComplexTypeReference" referred="//@problemConainer/@types.2"/>
             </operands>
+            <operands xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.0">
+              <parameterSubstitutions xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.2/@variables.0"/>
+              <parameterSubstitutions xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.2/@value/@operands.0/@quantifiedVariables.0"/>
+            </operands>
+          </expression>
+        </operands>
+      </value>
+    </relations>
+    <relations xsi:type="language:RelationDefinition" name="pattern patterns hasParent" annotations="//@problemConainer/@annotations.3">
+      <parameters xsi:type="language:ComplexTypeReference" referred="//@problemConainer/@types.0"/>
+      <variables name="parameter entity">
+        <range xsi:type="language:ComplexTypeReference" referred="//@problemConainer/@types.0"/>
+      </variables>
+      <value xsi:type="language:Or">
+        <operands xsi:type="language:Exists">
+          <quantifiedVariables name="variable parent">
+            <range xsi:type="language:ComplexTypeReference" referred="//@problemConainer/@types.0"/>
+          </quantifiedVariables>
+          <expression xsi:type="language:And">
             <operands xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.0">
               <parameterSubstitutions xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.3/@variables.0"/>
               <parameterSubstitutions xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.3/@value/@operands.0/@quantifiedVariables.0"/>
@@ -265,17 +253,22 @@
         </operands>
       </value>
     </relations>
-    <relations xsi:type="language:RelationDefinition" name="pattern patterns entityIsItsOwnParent" annotations="//@problemConainer/@annotations.4">
+    <relations xsi:type="language:RelationDefinition" name="pattern patterns hasChild" annotations="//@problemConainer/@annotations.4">
       <parameters xsi:type="language:ComplexTypeReference" referred="//@problemConainer/@types.0"/>
       <variables name="parameter entity">
         <range xsi:type="language:ComplexTypeReference" referred="//@problemConainer/@types.0"/>
       </variables>
       <value xsi:type="language:Or">
-        <operands xsi:type="language:And">
-          <operands xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.1">
-            <parameterSubstitutions xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.4/@variables.0"/>
-            <parameterSubstitutions xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.4/@variables.0"/>
-          </operands>
+        <operands xsi:type="language:Exists">
+          <quantifiedVariables name="variable 0">
+            <range xsi:type="language:ComplexTypeReference" referred="//@problemConainer/@types.0"/>
+          </quantifiedVariables>
+          <expression xsi:type="language:And">
+            <operands xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.1">
+              <parameterSubstitutions xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.4/@variables.0"/>
+              <parameterSubstitutions xsi:type="language:SymbolicValue" symbolicReference="//@problemConainer/@relations.4/@value/@operands.0/@quantifiedVariables.0"/>
+            </operands>
+          </expression>
         </operands>
       </value>
     </relations>
@@ -283,11 +276,10 @@
     <containmentHierarchies typesOrderedInHierarchy="//@problemConainer/@types.2 //@problemConainer/@types.3 //@problemConainer/@types.1 //@problemConainer/@types.0 //@problemConainer/@types.4 //@problemConainer/@types.5 //@problemConainer/@types.6 //@problemConainer/@types.7" containmentRelations="//@problemConainer/@relations.1"/>
     <annotations xsi:type="ecore2logicannotations:UpperMultiplicityAssertion" target="//@problemConainer/@assertions.0" relation="//@problemConainer/@relations.0" upper="1"/>
     <annotations xsi:type="ecore2logicannotations:InverseRelationAssertion" target="//@problemConainer/@assertions.1" inverseA="//@problemConainer/@relations.0" inverseB="//@problemConainer/@relations.1"/>
-    <annotations xsi:type="viatra2logicannotations:TransfomedViatraQuery" target="//@problemConainer/@relations.2" patternFullyQualifiedName="patterns.hasParent"/>
-    <annotations xsi:type="viatra2logicannotations:TransfomedViatraQuery" target="//@problemConainer/@relations.3" patternFullyQualifiedName="patterns.concentratorHasParent"/>
-    <annotations xsi:type="viatra2logicannotations:TransfomedViatraQuery" target="//@problemConainer/@relations.4" patternFullyQualifiedName="patterns.entityIsItsOwnParent"/>
-    <annotations xsi:type="viatra2logicannotations:TransformedViatraWellformednessConstraint" target="//@problemConainer/@assertions.2" query="//@problemConainer/@annotations.3"/>
-    <annotations xsi:type="viatra2logicannotations:TransformedViatraWellformednessConstraint" target="//@problemConainer/@assertions.3" query="//@problemConainer/@annotations.4"/>
+    <annotations xsi:type="viatra2logicannotations:TransfomedViatraQuery" target="//@problemConainer/@relations.2" patternFullyQualifiedName="patterns.concentratorHasParent"/>
+    <annotations xsi:type="viatra2logicannotations:TransfomedViatraQuery" target="//@problemConainer/@relations.3" patternFullyQualifiedName="patterns.hasParent"/>
+    <annotations xsi:type="viatra2logicannotations:TransfomedViatraQuery" target="//@problemConainer/@relations.4" patternFullyQualifiedName="patterns.hasChild"/>
+    <annotations xsi:type="viatra2logicannotations:TransformedViatraWellformednessConstraint" target="//@problemConainer/@assertions.2" query="//@problemConainer/@annotations.2"/>
   </problemConainer>
   <booleanelements name="true" valueSet="true" value="true"/>
   <booleanelements name="false" valueSet="true"/>

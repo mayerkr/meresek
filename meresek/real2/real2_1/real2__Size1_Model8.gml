@@ -30,7 +30,7 @@ graph
 	Concentrator class DefinedPart
 	Entity class
 	Concentrator class
-	Degree: 4
+	Degree: 5
 	Repeater: false
 	#Hops: 0"
 				fontSize	14
@@ -71,7 +71,7 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 3
+	Degree: 2
 	Repeater: true
 	#Hops: 1"
 				fontSize	14
@@ -112,9 +112,9 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 4
+	Degree: 3
 	Repeater: true
-	#Hops: 1"
+	#Hops: 2"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -155,7 +155,7 @@ graph
 	Entity class UndefinedPart
 	Degree: 1
 	Repeater: false
-	#Hops: 2"
+	#Hops: 1"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -194,8 +194,8 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 1
-	Repeater: false
+	Degree: 2
+	Repeater: true
 	#Hops: 1"
 				fontSize	14
 				fontName	"Consolas"
@@ -235,9 +235,9 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 1
-	Repeater: false
-	#Hops: 1"
+	Degree: 2
+	Repeater: true
+	#Hops: 3"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -278,7 +278,7 @@ graph
 	Entity class UndefinedPart
 	Degree: 1
 	Repeater: false
-	#Hops: 2"
+	#Hops: 4"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -317,9 +317,9 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 2
-	Repeater: true
-	#Hops: 2"
+	Degree: 1
+	Repeater: false
+	#Hops: 1"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -360,7 +360,7 @@ graph
 	Entity class UndefinedPart
 	Degree: 1
 	Repeater: false
-	#Hops: 2"
+	#Hops: 3"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -401,7 +401,7 @@ graph
 	Entity class UndefinedPart
 	Degree: 1
 	Repeater: false
-	#Hops: 2"
+	#Hops: 1"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -442,7 +442,7 @@ graph
 	Entity class UndefinedPart
 	Degree: 1
 	Repeater: false
-	#Hops: 3"
+	#Hops: 2"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -472,7 +472,7 @@ graph
 	edge
 	[
 		source	2
-		target	0
+		target	1
 		graphics
 		[
 			fill	"#000000"
@@ -491,7 +491,7 @@ graph
 	edge
 	[
 		source	3
-		target	2
+		target	0
 		graphics
 		[
 			fill	"#000000"
@@ -529,7 +529,7 @@ graph
 	edge
 	[
 		source	5
-		target	0
+		target	2
 		graphics
 		[
 			fill	"#000000"
@@ -548,7 +548,7 @@ graph
 	edge
 	[
 		source	6
-		target	1
+		target	5
 		graphics
 		[
 			fill	"#000000"
@@ -567,7 +567,7 @@ graph
 	edge
 	[
 		source	7
-		target	2
+		target	0
 		graphics
 		[
 			fill	"#000000"
@@ -586,7 +586,7 @@ graph
 	edge
 	[
 		source	8
-		target	1
+		target	2
 		graphics
 		[
 			fill	"#000000"
@@ -605,7 +605,7 @@ graph
 	edge
 	[
 		source	9
-		target	2
+		target	0
 		graphics
 		[
 			fill	"#000000"
@@ -624,7 +624,7 @@ graph
 	edge
 	[
 		source	10
-		target	7
+		target	4
 		graphics
 		[
 			fill	"#000000"
@@ -662,7 +662,7 @@ graph
 	]
 	edge
 	[
-		source	0
+		source	1
 		target	2
 		graphics
 		[
@@ -682,7 +682,7 @@ graph
 	]
 	edge
 	[
-		source	2
+		source	0
 		target	3
 		graphics
 		[
@@ -722,7 +722,7 @@ graph
 	]
 	edge
 	[
-		source	0
+		source	2
 		target	5
 		graphics
 		[
@@ -742,7 +742,7 @@ graph
 	]
 	edge
 	[
-		source	1
+		source	5
 		target	6
 		graphics
 		[
@@ -762,7 +762,7 @@ graph
 	]
 	edge
 	[
-		source	2
+		source	0
 		target	7
 		graphics
 		[
@@ -782,7 +782,7 @@ graph
 	]
 	edge
 	[
-		source	1
+		source	2
 		target	8
 		graphics
 		[
@@ -802,7 +802,7 @@ graph
 	]
 	edge
 	[
-		source	2
+		source	0
 		target	9
 		graphics
 		[
@@ -822,7 +822,7 @@ graph
 	]
 	edge
 	[
-		source	7
+		source	4
 		target	10
 		graphics
 		[

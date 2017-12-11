@@ -71,8 +71,8 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 1
-	Repeater: false
+	Degree: 2
+	Repeater: true
 	#Hops: 1"
 				fontSize	14
 				fontName	"Consolas"
@@ -112,7 +112,48 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 2
+	Degree: 1
+	Repeater: false
+	#Hops: 2"
+				fontSize	14
+				fontName	"Consolas"
+				alignment	"left"
+				anchor	"tl"
+				borderDistance	6
+			]
+		]
+	
+	node
+		[
+			id	3
+			graphics
+			[
+				w	215.60000000000002
+				h	120
+				type	"rectangle"
+				fill	"#FFFFFF"
+				fill2	"#FFFFFF"
+				outline	"#000000"
+			]
+			LabelGraphics
+			[
+				text	"null"
+				outline	"#000000"
+				fill	"#FFFFFF"
+				fontSize	16
+				fontName	"Monospace"
+				autoSizePolicy	"node_width"
+				anchor	"t"
+				borderDistance	0.0
+			]
+			LabelGraphics
+			[
+				text	"
+	Entity class
+	Meter class
+	SmartMeter class
+	Entity class UndefinedPart
+	Degree: 4
 	Repeater: true
 	#Hops: 1"
 				fontSize	14
@@ -125,7 +166,7 @@ graph
 	
 	node
 		[
-			id	3
+			id	4
 			graphics
 			[
 				w	215.60000000000002
@@ -166,47 +207,6 @@ graph
 	
 	node
 		[
-			id	4
-			graphics
-			[
-				w	215.60000000000002
-				h	120
-				type	"rectangle"
-				fill	"#FFFFFF"
-				fill2	"#FFFFFF"
-				outline	"#000000"
-			]
-			LabelGraphics
-			[
-				text	"null"
-				outline	"#000000"
-				fill	"#FFFFFF"
-				fontSize	16
-				fontName	"Monospace"
-				autoSizePolicy	"node_width"
-				anchor	"t"
-				borderDistance	0.0
-			]
-			LabelGraphics
-			[
-				text	"
-	Entity class
-	Meter class
-	SmartMeter class
-	Entity class UndefinedPart
-	Degree: 3
-	Repeater: true
-	#Hops: 1"
-				fontSize	14
-				fontName	"Consolas"
-				alignment	"left"
-				anchor	"tl"
-				borderDistance	6
-			]
-		]
-	
-	node
-		[
 			id	5
 			graphics
 			[
@@ -235,8 +235,8 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 2
-	Repeater: true
+	Degree: 1
+	Repeater: false
 	#Hops: 2"
 				fontSize	14
 				fontName	"Consolas"
@@ -276,8 +276,8 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 2
-	Repeater: true
+	Degree: 1
+	Repeater: false
 	#Hops: 1"
 				fontSize	14
 				fontName	"Consolas"
@@ -319,7 +319,7 @@ graph
 	Entity class UndefinedPart
 	Degree: 2
 	Repeater: true
-	#Hops: 3"
+	#Hops: 1"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -358,8 +358,8 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 1
-	Repeater: false
+	Degree: 2
+	Repeater: true
 	#Hops: 2"
 				fontSize	14
 				fontName	"Consolas"
@@ -401,7 +401,7 @@ graph
 	Entity class UndefinedPart
 	Degree: 1
 	Repeater: false
-	#Hops: 2"
+	#Hops: 3"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -442,7 +442,7 @@ graph
 	Entity class UndefinedPart
 	Degree: 1
 	Repeater: false
-	#Hops: 4"
+	#Hops: 2"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -472,7 +472,7 @@ graph
 	edge
 	[
 		source	2
-		target	0
+		target	1
 		graphics
 		[
 			fill	"#000000"
@@ -491,25 +491,6 @@ graph
 	edge
 	[
 		source	3
-		target	2
-		graphics
-		[
-			fill	"#000000"
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"communicationParent reference Entity"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	4
 		target	0
 		graphics
 		[
@@ -528,8 +509,27 @@ graph
 	]
 	edge
 	[
+		source	4
+		target	3
+		graphics
+		[
+			fill	"#000000"
+			targetArrow	"standard"
+		]
+		LabelGraphics
+		[
+			text	"communicationParent reference Entity"
+			fontSize	14
+			fontName	"Consolas"
+			configuration	"AutoFlippingLabel"
+			model	"six_pos"
+			position	"thead"
+		]
+	]
+	edge
+	[
 		source	5
-		target	4
+		target	3
 		graphics
 		[
 			fill	"#000000"
@@ -567,7 +567,7 @@ graph
 	edge
 	[
 		source	7
-		target	5
+		target	0
 		graphics
 		[
 			fill	"#000000"
@@ -586,7 +586,7 @@ graph
 	edge
 	[
 		source	8
-		target	4
+		target	3
 		graphics
 		[
 			fill	"#000000"
@@ -605,7 +605,7 @@ graph
 	edge
 	[
 		source	9
-		target	6
+		target	8
 		graphics
 		[
 			fill	"#000000"
@@ -662,7 +662,7 @@ graph
 	]
 	edge
 	[
-		source	0
+		source	1
 		target	2
 		graphics
 		[
@@ -682,7 +682,7 @@ graph
 	]
 	edge
 	[
-		source	2
+		source	0
 		target	3
 		graphics
 		[
@@ -702,7 +702,7 @@ graph
 	]
 	edge
 	[
-		source	0
+		source	3
 		target	4
 		graphics
 		[
@@ -722,7 +722,7 @@ graph
 	]
 	edge
 	[
-		source	4
+		source	3
 		target	5
 		graphics
 		[
@@ -762,7 +762,7 @@ graph
 	]
 	edge
 	[
-		source	5
+		source	0
 		target	7
 		graphics
 		[
@@ -782,7 +782,7 @@ graph
 	]
 	edge
 	[
-		source	4
+		source	3
 		target	8
 		graphics
 		[
@@ -802,7 +802,7 @@ graph
 	]
 	edge
 	[
-		source	6
+		source	8
 		target	9
 		graphics
 		[

@@ -71,7 +71,7 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 4
+	Degree: 3
 	Repeater: true
 	#Hops: 1"
 				fontSize	14
@@ -112,7 +112,7 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 4
+	Degree: 5
 	Repeater: true
 	#Hops: 2"
 				fontSize	14
@@ -153,8 +153,8 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 2
-	Repeater: true
+	Degree: 1
+	Repeater: false
 	#Hops: 3"
 				fontSize	14
 				fontName	"Consolas"
@@ -196,7 +196,7 @@ graph
 	Entity class UndefinedPart
 	Degree: 1
 	Repeater: false
-	#Hops: 2"
+	#Hops: 1"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -237,7 +237,7 @@ graph
 	Entity class UndefinedPart
 	Degree: 1
 	Repeater: false
-	#Hops: 4"
+	#Hops: 3"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -358,9 +358,9 @@ graph
 	Meter class
 	SmartMeter class
 	Entity class UndefinedPart
-	Degree: 1
-	Repeater: false
-	#Hops: 1"
+	Degree: 2
+	Repeater: true
+	#Hops: 3"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -442,7 +442,7 @@ graph
 	Entity class UndefinedPart
 	Degree: 1
 	Repeater: false
-	#Hops: 3"
+	#Hops: 4"
 				fontSize	14
 				fontName	"Consolas"
 				alignment	"left"
@@ -510,7 +510,7 @@ graph
 	edge
 	[
 		source	4
-		target	1
+		target	0
 		graphics
 		[
 			fill	"#000000"
@@ -529,7 +529,7 @@ graph
 	edge
 	[
 		source	5
-		target	3
+		target	2
 		graphics
 		[
 			fill	"#000000"
@@ -586,7 +586,7 @@ graph
 	edge
 	[
 		source	8
-		target	0
+		target	2
 		graphics
 		[
 			fill	"#000000"
@@ -624,7 +624,7 @@ graph
 	edge
 	[
 		source	10
-		target	2
+		target	8
 		graphics
 		[
 			fill	"#000000"
@@ -702,7 +702,7 @@ graph
 	]
 	edge
 	[
-		source	1
+		source	0
 		target	4
 		graphics
 		[
@@ -722,7 +722,7 @@ graph
 	]
 	edge
 	[
-		source	3
+		source	2
 		target	5
 		graphics
 		[
@@ -782,7 +782,7 @@ graph
 	]
 	edge
 	[
-		source	0
+		source	2
 		target	8
 		graphics
 		[
@@ -822,7 +822,7 @@ graph
 	]
 	edge
 	[
-		source	2
+		source	8
 		target	10
 		graphics
 		[
